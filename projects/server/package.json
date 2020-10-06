@@ -1,0 +1,28 @@
+{
+  "name": "investodo-server",
+  "version": "0.0.1",
+  "description": "The server for InvesTodo app.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "test": "echo \"Not Implemented\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianhaoz95/investment-todo-app.git"
+  },
+  "author": "Tianhao Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianhaoz95/investment-todo-app/issues"
+  },
+  "homepage": "https://github.com/tianhaoz95/investment-todo-app#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
